@@ -21,7 +21,7 @@
         href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Orbitron:wght@400..900&display=swap"
         rel="stylesheet">
     <!-- Core theme CSS (includes Bootstrap)-->
-    <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/styles.css?v=2" rel="stylesheet" />
 </head>
 
 <body id="page-top">
@@ -55,12 +55,12 @@
         <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
             <div class="d-flex justify-content-center">
                 <div class="text-center">
-                    <h1 class="mx-auto my-0 text-uppercase">Ag-CyPhER</h1>
-                    <h2 class="text-white-50 mx-auto mt-2 mb-5">Agricultural Cyber-Physical Systems for Engineering
+                    <h1 class="mx-auto my-0 text-uppercase home-title">Ag-CyPhER</h1>
+                    <h2 class="mx-auto mt-2 mb-5 home-subtitle">Agricultural Cyber-Physical Systems for Engineering
                         Research</h2>
                     <div class="d-flex flex-column flex-md-row justify-content-center gap-3">
-                        <a class="btn btn-primary" href="#research">Our Research</a>
-                        <a class="btn btn-primary" href="#people">Meet the Team</a>
+                        <a class="btn btn-home" href="#research">Our Research</a>
+                        <a class="btn btn-home" href="#people">Meet the Team</a>
                     </div>
                 </div>
             </div>
@@ -115,7 +115,7 @@
 
             <!-- Project Three Row (Lima Beans) -->
             <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
-                <div class="col-lg-6"><img class="img-fluid"
+                <div class="col-lg-6 bg-research-green"><img class="img-fluid"
                         src="assets/img/research_data/Research2_images/lima_robot_gs.png" alt="In-Field Pod Counting"
                         style="width: 100%; height: 100%; object-fit: contain;" /></div>
                 <div class="col-lg-6">
@@ -156,7 +156,6 @@
             <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
                 <div class="col-lg-8">
                     <h2 class="text-white mb-4">Our Team</h2>
-                    <p class="text-white-50 mb-0">Meet the researchers behind Ag-CyPhER.</p>
                 </div>
             </div>
 
@@ -301,7 +300,7 @@
             <div class="row justify-content-center">
                 <div class="col-md-3 mb-4">
                     <div class="card h-100 border-0 shadow-sm">
-                        <img src="assets/img/equipment/equipment_placeholder.png" class="card-img-top p-3" alt="LiDAR"
+                        <img src="assets/img/equipment/images/DJI_LiDAR.png" class="card-img-top p-3" alt="LiDAR"
                             style="height: 200px; object-fit: contain;">
                         <div class="card-body text-center">
                             <h5 class="card-title">LiDAR</h5>
@@ -311,7 +310,7 @@
                 </div>
                 <div class="col-md-3 mb-4">
                     <div class="card h-100 border-0 shadow-sm">
-                        <img src="assets/img/equipment/equipment_placeholder.png" class="card-img-top p-3"
+                        <img src="assets/img/equipment/images/ZED-X-Mini-2.2mm-Side.webp" class="card-img-top p-3"
                             alt="ZED X Mini Camera" style="height: 200px; object-fit: contain;">
                         <div class="card-body text-center">
                             <h5 class="card-title">ZED X Mini Camera</h5>
@@ -321,7 +320,7 @@
                 </div>
                 <div class="col-md-3 mb-4">
                     <div class="card h-100 border-0 shadow-sm">
-                        <img src="assets/img/equipment/equipment_placeholder.png" class="card-img-top p-3"
+                        <img src="assets/img/equipment/images/Spectrum-TDR-350__21159.jpg" class="card-img-top p-3"
                             alt="Soil Sensor" style="height: 200px; object-fit: contain;">
                         <div class="card-body text-center">
                             <h5 class="card-title">Soil Sensor</h5>
@@ -331,8 +330,8 @@
                 </div>
                 <div class="col-md-3 mb-4">
                     <div class="card h-100 border-0 shadow-sm">
-                        <img src="assets/img/equipment/equipment_placeholder.png" class="card-img-top p-3"
-                            alt="Gamma Ray Sensor" style="height: 200px; object-fit: contain;">
+                        <img src="assets/img/equipment/images/Medusa-MS-350-gamma-ray-spectrometer.webp"
+                            class="card-img-top p-3" alt="Gamma Ray Sensor" style="height: 200px; object-fit: contain;">
                         <div class="card-body text-center">
                             <h5 class="card-title">Gamma Ray Sensor</h5>
                             <p class="card-text small text-muted">Advanced sub-surface sensing.</p>
@@ -424,20 +423,142 @@
                     <h2 class="text-black mb-4">Publications</h2>
                     <div class="text-black-50 text-start">
                         <ul class="list-unstyled mb-5">
-                            <li class="mb-4">
-                                <strong>Paper Title 1</strong><br>
-                                Authors List...<br>
-                                <em>Journal/Conference Name, Year</em>
+                            <li class="mb-4 publication-item">
+                                <a href="https://drive.google.com/file/d/PLACEHOLDER/view" target="_blank"
+                                    class="publication-link">
+                                    <strong>Development of a smartphone application for rapid blueberry detection and
+                                        yield estimation</strong>
+                                </a><br>
+                                <em>Jul 2025</em>
                             </li>
-                            <li class="mb-4">
-                                <strong>Paper Title 2</strong><br>
-                                Authors List...<br>
-                                <em>Journal/Conference Name, Year</em>
+                            <li class="mb-4 publication-item">
+                                <a href="https://drive.google.com/file/d/PLACEHOLDER/view" target="_blank"
+                                    class="publication-link">
+                                    <strong>A Comparative Study of Deep Semantic Segmentation and UAV-Based
+                                        Multispectral Imaging for Enhanced Roadside Vegetation Composition
+                                        Assessment</strong>
+                                </a><br>
+                                <em>May 2025</em>
                             </li>
-                            <li class="mb-4">
-                                <strong>Paper Title 3</strong><br>
-                                Authors List...<br>
-                                <em>Journal/Conference Name, Year</em>
+                            <li class="mb-4 publication-item">
+                                <a href="https://drive.google.com/file/d/PLACEHOLDER/view" target="_blank"
+                                    class="publication-link">
+                                    <strong>Development of a stereo vision-based UGV guidance system for bareroot forest
+                                        nurseries</strong>
+                                </a><br>
+                                <em>Mar 2025</em>
+                            </li>
+                            <li class="mb-4 publication-item">
+                                <a href="https://drive.google.com/file/d/PLACEHOLDER/view" target="_blank"
+                                    class="publication-link">
+                                    <strong>Effects of viewing angle and field of view on detection, tracking, and
+                                        counting of pine seedlings towards automated forest nursery inventory</strong>
+                                </a><br>
+                                <em>Feb 2025</em>
+                            </li>
+                            <li class="mb-4 publication-item">
+                                <a href="https://drive.google.com/file/d/PLACEHOLDER/view" target="_blank"
+                                    class="publication-link">
+                                    <strong>Image-based Assessment of Vegetation Cover and Composition using U-Net-based
+                                        Semantic Segmentation</strong>
+                                </a><br>
+                                <em>Jul 2023</em>
+                            </li>
+                            <li class="mb-4 publication-item">
+                                <a href="https://drive.google.com/file/d/PLACEHOLDER/view" target="_blank"
+                                    class="publication-link">
+                                    <strong>An mmWave radar-based mass flow sensor using machine learning towards a
+                                        peanut yield monitor</strong>
+                                </a><br>
+                                <em>May 2023</em>
+                            </li>
+                            <li class="mb-4 publication-item">
+                                <a href="https://drive.google.com/file/d/PLACEHOLDER/view" target="_blank"
+                                    class="publication-link">
+                                    <strong>Phenotyping of architecture traits of loblolly pine trees using stereo
+                                        machine vision and deep learning: Stem diameter, branch angle, and branch
+                                        diameter</strong>
+                                </a><br>
+                                <em>Dec 2022</em>
+                            </li>
+                            <li class="mb-4 publication-item">
+                                <a href="https://drive.google.com/file/d/PLACEHOLDER/view" target="_blank"
+                                    class="publication-link">
+                                    <strong>IN-FIELD PINE SEEDLING COUNTING USING END-TO-END DEEP LEARNING FOR INVENTORY
+                                        MANAGEMENT</strong>
+                                </a><br>
+                                <em>Sep 2022</em>
+                            </li>
+                            <li class="mb-4 publication-item">
+                                <a href="https://drive.google.com/file/d/PLACEHOLDER/view" target="_blank"
+                                    class="publication-link">
+                                    <strong>Field‐based robotic leaf angle detection and characterization of maize
+                                        plants using stereo vision and deep convolutional neural networks</strong>
+                                </a><br>
+                                <em>Dec 2021</em>
+                            </li>
+                            <li class="mb-4 publication-item">
+                                <a href="https://drive.google.com/file/d/PLACEHOLDER/view" target="_blank"
+                                    class="publication-link">
+                                    <strong>Infield peanut pod counting using deep neural networks for yield
+                                        estimation</strong>
+                                </a><br>
+                                <em>Jul 2021</em>
+                            </li>
+                            <li class="mb-4 publication-item">
+                                <a href="https://drive.google.com/file/d/PLACEHOLDER/view" target="_blank"
+                                    class="publication-link">
+                                    <strong>Field Robotic Systems for High-Throughput Plant Phenotyping: A Review and a
+                                        Case Study</strong>
+                                </a><br>
+                                <em>Jul 2021</em>
+                            </li>
+                            <li class="mb-4 publication-item">
+                                <a href="https://drive.google.com/file/d/PLACEHOLDER/view" target="_blank"
+                                    class="publication-link">
+                                    <strong>Assessing plant performance in the Enviratron</strong>
+                                </a><br>
+                                <em>Oct 2019</em>
+                            </li>
+                            <li class="mb-4 publication-item">
+                                <a href="https://drive.google.com/file/d/PLACEHOLDER/view" target="_blank"
+                                    class="publication-link">
+                                    <strong>Automated morphological traits extraction for sorghum plants via 3D point
+                                        cloud data analysis</strong>
+                                </a><br>
+                                <em>Jan 2019</em>
+                            </li>
+                            <li class="mb-4 publication-item">
+                                <a href="https://drive.google.com/file/d/PLACEHOLDER/view" target="_blank"
+                                    class="publication-link">
+                                    <strong>3D PERCEPTION-BASED COLLISION-FREE ROBOTIC LEAF PROBING FOR AUTOMATED INDOOR
+                                        PLANT PHENOTYPING</strong>
+                                </a><br>
+                                <em>Jul 2018</em>
+                            </li>
+                            <li class="mb-4 publication-item">
+                                <a href="https://drive.google.com/file/d/PLACEHOLDER/view" target="_blank"
+                                    class="publication-link">
+                                    <strong>Field-based architectural traits characterisation of maize plant using
+                                        time-of-flight 3D imaging</strong>
+                                </a><br>
+                                <em>May 2018</em>
+                            </li>
+                            <li class="mb-4 publication-item">
+                                <a href="https://drive.google.com/file/d/PLACEHOLDER/view" target="_blank"
+                                    class="publication-link">
+                                    <strong>Field‐based robotic phenotyping of sorghum plant architecture using stereo
+                                        vision</strong>
+                                </a><br>
+                                <em>Feb 2018</em>
+                            </li>
+                            <li class="mb-4 publication-item">
+                                <a href="https://drive.google.com/file/d/1Akzz33_vx-4iKybRbEGjAa0KmV49hlDA/view"
+                                    target="_blank" class="publication-link">
+                                    <strong>A High-Throughput, Field-Based Phenotyping Technology for Tall Biomass
+                                        Crops</strong>
+                                </a><br>
+                                <em>Aug 2017</em>
                             </li>
                         </ul>
                         <div class="text-center">

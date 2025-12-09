@@ -534,7 +534,7 @@ progress {
 /* Standardized Section Subtitle */
 .section-subtitle,
 .research-desc {
-  font-size: 130%;
+  font-size: 115%;
   font-weight: 300;
   max-width: 800px;
   margin: 0 auto 2rem auto;
@@ -542,7 +542,7 @@ progress {
 
 .projects-section .project-text {
   padding: 3rem;
-  font-size: 130%;
+  font-size: 115%;
 }
 
 /* Standardize Text Sizes for other sections */
@@ -553,12 +553,97 @@ progress {
 #news .list-unstyled li,
 #publications .list-unstyled li,
 #contact .small {
-  font-size: 130%;
+  font-size: 115%;
 }
 
 /* Override bootstrap .small if it conflicts in these specific sections */
 #equipment .small {
-  font-size: 130%;
+  font-size: 115%;
+}
+
+/* Publication Styling */
+.publication-link {
+  color: var(--bs-black) !important;
+  text-decoration: none !important;
+  transition: color 0.3s ease;
+}
+
+.publication-link:hover {
+  color: var(--bs-primary) !important;
+}
+
+/* Home Section Refinements */
+.btn-home {
+  font-family: "JetBrains Mono", monospace;
+  background-color: #000 !important;
+  border: 1px solid #000 !important;
+  color: #fff !important;
+  padding: 1rem 2rem;
+  font-size: 1.25rem;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.btn-home:hover {
+  background-color: #000 !important;
+  border-color: #000 !important;
+  color: #fff !important;
+  opacity: 0.9;
+  /* Slight feedback */
+}
+
+.home-title {
+  font-family: "JetBrains Mono", monospace;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 15px;
+  padding: 0.5rem 2rem;
+  display: inline-block;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Research Section Refinements */
+#research {
+  background-color: #1E3932 !important;
+  /* Dark Forest Green */
+}
+
+/* Scope white text ONLY to the section header */
+#research .container>.row:first-child h2,
+#research .container>.row:first-child .text-black,
+#research .container>.row:first-child p,
+#research .container>.row:first-child .research-desc {
+  color: #fff !important;
+}
+
+#research .container>.row:first-child .text-black-50 {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+/* Ensure project cards retain original light backgrounds and dark text */
+/* No overrides needed for .bg-research-* or inner text, as they will default to original styles */
+/* But we need to ensure the transparent border/container doesn't leak */
+
+/* Equipment Section Refinements */
+#equipment {
+  background-color: #1E3932 !important;
+  /* Dark Forest Green */
+  color: #fff !important;
+}
+
+#equipment h2 {
+  color: #fff !important;
+}
+
+
+.home-subtitle {
+  font-family: "JetBrains Mono", monospace;
+  color: #fff;
+  font-size: 1.5rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .lead {
