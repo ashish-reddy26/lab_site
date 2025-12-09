@@ -531,6 +531,36 @@ progress {
   display: none !important;
 }
 
+/* Standardized Section Subtitle */
+.section-subtitle,
+.research-desc {
+  font-size: 130%;
+  font-weight: 300;
+  max-width: 800px;
+  margin: 0 auto 2rem auto;
+}
+
+.projects-section .project-text {
+  padding: 3rem;
+  font-size: 130%;
+}
+
+/* Standardize Text Sizes for other sections */
+#equipment .card-text,
+#people .team-member p,
+#people .team-member .text-white-50,
+#people .list-unstyled li,
+#news .list-unstyled li,
+#publications .list-unstyled li,
+#contact .small {
+  font-size: 130%;
+}
+
+/* Override bootstrap .small if it conflicts in these specific sections */
+#equipment .small {
+  font-size: 130%;
+}
+
 .lead {
   font-size: 1.25rem;
   font-weight: 300;
@@ -13062,4 +13092,16 @@ body {
 .bg-research-orange {
   background-color: #fff3e0;
   /* Light Orange for Machinery/Nav */
+}
+
+/* Custom link style for department names */
+.dept-link {
+  color: rgba(255, 255, 255, 0.5) !important;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.dept-link:hover {
+  color: #fff !important;
+  text-decoration: none;
 }
