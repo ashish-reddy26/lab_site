@@ -596,15 +596,17 @@ progress {
 
 .home-title {
   font-family: "JetBrains Mono", monospace;
-  background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  border-radius: 15px;
-  padding: 0.5rem 2rem;
-  display: inline-block;
+  /* Removed individual background styles */
+  display: block;
   color: #fff !important;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin-bottom: 0;
+}
+
+.home-highlight {
+  color: #64a19d;
+  font-weight: 700;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
 }
 
 /* Research Section Refinements */
@@ -689,13 +691,28 @@ progress {
 
 .home-subtitle {
   font-family: "JetBrains Mono", monospace;
+  display: block;
   color: #fff;
-  font-size: 1.5rem;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-size: 1.4rem !important;
+  text-shadow: 2px 2px 4px rgb(0, 0, 0);
   max-width: 100% !important;
-  /* Allow proper full width */
   white-space: normal;
-  /* Ensure it CAN wrap on mobile if needed, but 100% width on desktop prevents unnecessary wrapping */
+  margin-top: 2rem;
+}
+
+.home-glass-container {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 15px;
+  padding: 2rem 3rem;
+  display: inline-block;
+  /* Wrap tightly around content */
+  max-width: 95%;
+  /* Prevent scrollbar on small screens */
+  margin: 0 auto 3rem auto;
+  /* Spacing below the box */
 }
 
 @media (min-width: 992px) {
