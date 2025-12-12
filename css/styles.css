@@ -633,8 +633,8 @@ progress {
 
 /* Equipment Section Refinements */
 #equipment {
-  background-color: #1E3932 !important;
-  /* Dark Forest Green */
+  background-color: #000000 !important;
+  /* Black */
   color: #fff !important;
 }
 
@@ -13236,18 +13236,22 @@ body {
   text-align: center;
   height: 3rem;
   width: 3rem;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.25);
   border-radius: 100%;
   line-height: 3rem;
-  color: rgba(255, 255, 255, 0.3);
+  color: #fff;
+  transition: all 0.3s ease;
 }
 
 .contact-section .social a:hover {
-  color: rgba(255, 255, 255, 0.5);
+  transform: translateY(-3px);
+  background: #fff;
+  color: #1E3932;
 }
 
 .contact-section .social a:active {
-  color: #fff;
+  color: #1E3932;
+  transform: translateY(0);
 }
 
 .footer {
@@ -13278,7 +13282,10 @@ body {
 }
 
 .dept-link:hover {
-  color: #64a19d !important;
   /* Default highlight green/teal */
   text-decoration: none;
+}
+
+.bg-forest-green {
+  background-color: #1E3932;
 }

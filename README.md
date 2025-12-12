@@ -22,6 +22,8 @@ Visit `http://localhost:8000` in your browser.
 
 ## Contact
 **Dr. Yin Bao**
-Assistant Professor
+Assistant Professor,
+
 University of Delaware
+
 yinbao@udel.edu
